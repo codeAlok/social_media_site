@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,10 +8,13 @@
     <title>social media website</title>
 
     <!-- fontawesome cdn  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <nav>
         <div class="container">
@@ -23,11 +27,133 @@
             </div>
             <div class="create">
                 <label class="btn btn-primary" for="#create-post">Create</label>
-                <div class="profile-picture">
+                <div class="profile-photo">
                     <img src="./images/profile1.jpg" alt="profile-pic1">
                 </div>
             </div>
         </div>
     </nav>
+
+    <!-- --------------- Main section -------------- -->
+    <main>
+        <div class="container">
+            <!-- ------- left part ------ -->
+            <div class="left">
+                <a href="#" class="profile">
+                    <div class="profile-photo">
+                        <img src="./images/profile1.jpg" alt="profile1">
+                    </div>
+                    <div class="handle">
+                        <h4>Diana Ayi</h4>
+                        <p class="text-muted">
+                            @ayidyan
+                        </p>
+                    </div>
+                </a>
+
+                <!-- --- sidebar --- -->
+                <div class="sidebar">
+                    <a href="#" class="menu-item active">
+                        <span><i class="fa-solid fa-house-user"></i></span><h3>Home</h3>
+                    </a>
+                    <a href="#" class="menu-item">
+                        <span><i class="fa-solid fa-compass"></i></span><h3>Explore</h3>
+                    </a>
+                    <a href="#" class="menu-item" id="notifications">
+                        <span><i class="fa-solid fa-bell"><small class="notification-count">9+</small></i></span><h3>Notification</h3>
+
+                        <!-- --- Notification Popup --- -->
+                        <div class="notifications-popup">
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="./images/profile2.jpg" alt="profile2">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Keke Benjamin</b> accepted your friend request
+                                    <small class="text-muted">2 days ago</small>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="./images/profile3.jpg" alt="profile3">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Donald Trump</b>commented on a post you are tagged in
+                                    <small class="text-muted">2 days ago</small>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="./images/profile4.jpg" alt="profile4">
+                                </div>
+                                <div class="notification-body">
+                                    <b>jane Doe</b>commented on your post
+                                    <small class="text-muted">2 days ago</small>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="./images/profile5.png" alt="profile5">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Keke Benjamin</b>commented your post you are tagged in
+                                    <small class="text-muted">1 Hour ago</small>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="./images/profile6.jpg" alt="profile6">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Keke Benjamin</b>commented your post you are tagged in
+                                    <small class="text-muted">1 Hour ago</small>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="./images/profile7.jpg" alt="profile7">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Keke Benjamin</b>commented on your post
+                                    <small class="text-muted">1 Hour ago</small>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <!-- --- end notification popup --- -->
+
+                    <a href="#" class="menu-item">
+                        <span><i class="fa-solid fa-message"><small class="notication-count">6</small></i></span><h3>Message</h3>
+                    </a>
+                    <a href="#" class="menu-item">
+                        <span><i class="fa-solid fa-bookmark"></i></span><h3>Bookmarks</h3>
+                    </a>
+                    <a href="#" class="menu-item">
+                        <span><i class="fa-solid fa-chart-simple"></i></span><h3>Analytics</h3>
+                    </a>
+                    <a href="#" class="menu-item">
+                        <span><i class="fa-sharp fa-solid fa-palette"></i></span><h3>Theme</h3>
+                    </a>
+                    <a href="#" class="menu-item active">
+                        <span><i class="fa-solid fa-gear"></i></span><h3>Settings</h3>
+                    </a>
+                </div>
+
+                <label for="create-post" class="btn btn-primary">Create-post</label>
+            </div>
+
+            <!-- ------- middle part ------ -->
+            <div class="middle">
+                
+            </div>
+
+            <!-- ------- right part ------ -->
+            <div class="right">
+               
+            </div>
+            
+        </div>
+    </main>
 </body>
+
 </html>
