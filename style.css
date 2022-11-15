@@ -547,6 +547,7 @@ main .container .right {
     padding: 3rem;
     border-radius: var(--card-border-radius);
     width: 50%;
+    box-shadow: 0 0 1rem var(--color-primary);
 }
 
 /* ------- Font Size ------- */
@@ -706,6 +707,10 @@ main .container .right {
     .left .btn {
         display: none;
     }
+
+    .customize-theme .card {
+        width: 80vw;
+    }
 }
 
 /* ************ Media Queries for Small Tablets and Mobile Phones ************** */
@@ -730,6 +735,12 @@ main .container .right {
     /* ----- Notification Popup ----- */
     .left .notification-popup {
         position: absolute;
+        left: -20rem;
+        width: 20rem;
+    }
+
+    .left .notifications-popup::before {
+        position: absolute;
         top: 1.3rem;
         left: calc(20rem - 0.6rem);
         display: block;
@@ -741,5 +752,9 @@ main .container .right {
 
     main .container .right {
         display: none;
+    }
+
+    .customize-theme .card {
+        width: 90vw;
     }
 }
