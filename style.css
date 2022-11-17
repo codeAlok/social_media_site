@@ -729,7 +729,7 @@ main .container .right {
     }
 
     main .container {
-        grid-template-columns: 0 auto 5rem;
+        grid-template-columns: 5rem auto 0;
         gap: 0;
     }
 
@@ -737,7 +737,6 @@ main .container .right {
         grid-column: 3/4;
         position: fixed;
         bottom: 0;
-        right: 0;
     }
 
     /* ----- Notification Popup ----- */
