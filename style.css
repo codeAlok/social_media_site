@@ -147,6 +147,7 @@ main .container {
 
 /* ********** Left ********** */
 main .container .left {
+    z-index: 9;
     height: max-content;
     position: sticky;
     top: var(--sticky-top-left);
@@ -257,6 +258,7 @@ main .container .left .profile {
     /* popup handled by javascript */
     display: none;  
 }
+
 
 .left .notifications-popup::before {
     content: "";
